@@ -28,11 +28,11 @@ makeCacheMatrix <- function(x = matrix())
 
 	## Definition of the get function
 	## get() function returns the matrix x stored in the main function makeCacheMatrix. Doesn't require any input.
-      get <- function() x
+	get <- function() x
 
 	## Definition of the setinverse function
 	## Simply stores the value of the parameter inverse in a variable i into the main function makeCacheMatrix. 
-      setinverse <- function(inverse) i <<- inverse
+	setinverse <- function(inverse) i <<- inverse
 
 	## Definition of the getinverse function 
 	## Simply gets the value of the variable i into the main function makeCacheMatrix. 
